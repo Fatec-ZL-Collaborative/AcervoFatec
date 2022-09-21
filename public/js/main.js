@@ -30,6 +30,7 @@ const scrollReveal = ScrollReveal({
 
 scrollReveal.reveal(`
     .main-container_presentation,
+    .main-container_table,
     .footer-container
 `)
 
