@@ -2,9 +2,9 @@
   "name": "acervofatec",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.ts",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "ts-node-dev .",
+    "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,17 +18,11 @@
     "url": "https://github.com/Fatec-ZL-Collaborative/AcervoFatec/issues"
   },
   "homepage": "https://github.com/Fatec-ZL-Collaborative/AcervoFatec#readme",
-  "devDependencies": {
-    "@types/express": "^4.17.14",
-    "prisma": "^4.3.1",
-    "rimraf": "^3.0.2",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^4.8.3"
-  },
   "dependencies": {
-    "@prisma/client": "^4.3.1",
     "dotenv": "^16.0.2",
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20"
   }
 }
