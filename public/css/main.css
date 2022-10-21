@@ -73,7 +73,7 @@ h6{
 }
 
 .content{
-    padding-block: 10rem;
+    padding-block: 5rem;
 }
 
 .content p{
@@ -197,10 +197,6 @@ img{
 }
 
 /* =============== MAIN SETTINGS =============== */
-.main{
-    padding-top: calc(var(--height-nav) + 1rem);
-}
-
 .main-container_breadcrumbs{
     display: flex;
     align-items: center;

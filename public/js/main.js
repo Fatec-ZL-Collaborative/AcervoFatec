@@ -1,4 +1,4 @@
-// =============== INITIAL SETTINGS ===============
+// =============== INITIAL SETTINGS =============== 
 window.addEventListener('scroll', onScroll)
 const bodyElement = document.body
 
@@ -21,18 +21,18 @@ function changeColorMenuOnScroll(menu) {
 }
 
 // =============== SCROLL REVEAL SETTINGS ===============
-const scrollReveal = ScrollReveal({
-    origin: 'top',
-    distance: '40px',
-    duration: '800',
-    delay: 150
-})
+// const scrollReveal = ScrollReveal({
+//     origin: 'top',
+//     distance: '40px',
+//     duration: '800',
+//     delay: 150
+// })
 
-scrollReveal.reveal(`
-    .main-container_presentation,
-    .main-container_table,
-    .footer-container
-`)
+// scrollReveal.reveal(`
+//     .main-container_presentation,
+//     .main-container_table,
+//     .footer-container
+// `)
 
 // =============== DATATABLES SETTINGS ===============
 $(document).ready(function () {
