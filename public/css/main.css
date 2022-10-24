@@ -153,11 +153,10 @@ img{
 
 .accessibility-list{
     display: flex;
+    align-items: center;
     gap: 1rem;
-}
 
-.accessibility-list li{
-    height: 1.5rem;
+    padding: .3rem 0;
 }
 
 .accessibility-list a{
@@ -312,6 +311,10 @@ img{
     width: 100%;
     height: .1rem;
     background-color: hsl(0, 0%, 27%);
+}
+
+.footer-container_bottom{
+    padding-bottom: 4rem;
 }
 
 .footer-bottom_end{

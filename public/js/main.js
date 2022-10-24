@@ -40,3 +40,24 @@ $(document).ready(function () {
         responsive: true
     });
 });
+
+// =============== FONT SETTINGS ===============
+$(document).ready(function(){
+    let font = 1.6
+    
+    $('.increase').click(function(){
+        if(font<2.0){ 
+            console.log('rodou')
+            font += .2
+            $('body').css({'font-size': font + 'rem'})
+        }
+    })
+
+    $('.decrease').click(function(){
+        if(font>1.4){
+            font -= .2
+            $('body').css({'font-size': font + 'rem'})
+        }
+    })
+
+})
